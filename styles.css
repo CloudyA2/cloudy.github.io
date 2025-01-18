@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #87CEEB, #4682B4); /* Sky gradient */
+    color: #fff;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    margin: 0 15px;
+    font-size: 1rem;
+  }
+
+  .navbar {
+    margin-right: 35px;
+  }
+
+  .naventry {
+    margin: 0px 10px;
+  }
+  
+  /* Main Section */
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('background-image.jpg') no-repeat center center/cover; /* Replace with actual image */
+    padding-top: 60px; /* To offset the fixed header */
+  }
+  
+  .content h2 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+  }
+  
+  /* Footer */
+  .footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav a {
+      margin: 0 10px;
+      font-size: 0.9rem;
+    }
+  
+    .content h2 {
+      font-size: 2rem;
+    }
+  
+    .content p {
+      font-size: 1rem;
+    }
+  }
+  
